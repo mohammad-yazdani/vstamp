@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/vstamp.dir/main.cpp.o"
+  "CMakeFiles/vstamp.dir/lib/Socket.cc.o"
   "vstamp.pdb"
   "vstamp"
 )

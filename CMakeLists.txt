@@ -3,4 +3,6 @@ project(vstamp)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(vstamp main.cpp)
+include_directories(include)
+
+add_executable(vstamp main.cpp include/Socket.h lib/Socket.cc)

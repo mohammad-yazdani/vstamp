@@ -123,6 +123,33 @@ vstamp/fast:
 	$(MAKE) -f CMakeFiles/vstamp.dir/build.make CMakeFiles/vstamp.dir/build
 .PHONY : vstamp/fast
 
+lib/Socket.o: lib/Socket.cc.o
+
+.PHONY : lib/Socket.o
+
+# target to build an object file
+lib/Socket.cc.o:
+	$(MAKE) -f CMakeFiles/vstamp.dir/build.make CMakeFiles/vstamp.dir/lib/Socket.cc.o
+.PHONY : lib/Socket.cc.o
+
+lib/Socket.i: lib/Socket.cc.i
+
+.PHONY : lib/Socket.i
+
+# target to preprocess a source file
+lib/Socket.cc.i:
+	$(MAKE) -f CMakeFiles/vstamp.dir/build.make CMakeFiles/vstamp.dir/lib/Socket.cc.i
+.PHONY : lib/Socket.cc.i
+
+lib/Socket.s: lib/Socket.cc.s
+
+.PHONY : lib/Socket.s
+
+# target to generate assembly for a file
+lib/Socket.cc.s:
+	$(MAKE) -f CMakeFiles/vstamp.dir/build.make CMakeFiles/vstamp.dir/lib/Socket.cc.s
+.PHONY : lib/Socket.cc.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... vstamp"
+	@echo "... lib/Socket.o"
+	@echo "... lib/Socket.i"
+	@echo "... lib/Socket.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
